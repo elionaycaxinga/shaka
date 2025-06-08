@@ -10,7 +10,7 @@ public class ContentController {
     public String login(){
         return "login";
     }
-    @GetMapping("req/signup")
+    @GetMapping("/req/signup")
     public String registration(){
         return "signup";
     }
